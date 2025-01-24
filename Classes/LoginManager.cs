@@ -1,4 +1,6 @@
 ﻿namespace Pokedex___Fredag_aflevering;
+using System.Security.Cryptography;
+using System.Text;
 
 public class LoginManager
 {
@@ -16,10 +18,11 @@ public class LoginManager
 
     public void HandleLogin()
     {
+        //Ask for username and password. But hash the password immediatly
         Console.Write("Indtast brugernavn: ");
         this.InputUsername = Console.ReadLine();
         Console.Write("Indtast password: ");
-        this.InputPassword = Console.ReadLine();
+        this.InputPassword = GenerateHash(Console.ReadLine() ?? "");
     }
 
     public bool CheckLogin()
@@ -30,7 +33,7 @@ public class LoginManager
         {
             //split into username and password
             string[] values = line.Split(',');
-            //Check if the input matches the values in the file
+            //Check if the input matches the values in the file. If it does set the login success to true, if not ask for new input or return to menu
             if (values[0] == this.InputUsername && values[1] == this.InputPassword)
             {
                 this.LoginSuccess = true;
@@ -56,8 +59,27 @@ public class LoginManager
         return false;
     }
 
+    public static string GenerateHash(string rawData)
+    {
+        //Create a SHA256 instance
+        using (SHA256 sha256 = SHA256.Create())
+        {
+            //Generate hash
+            byte[] bytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(rawData));
+
+            //Convert byte array to a string and return the hashed string
+            StringBuilder builder = new StringBuilder();
+            foreach (byte b in bytes)
+            {
+                builder.Append(b.ToString("x2"));
+            }
+            return builder.ToString();
+        }
+    }
+
     public void HandleLogOut()
     {
+        //Simply log out the user
         this.User.IsLoggedIn = false;
         Console.WriteLine();
         Console.WriteLine("Du er nu logget ud.");

@@ -2,6 +2,7 @@
 
 class Program
 {
+    //Create instances of user and loginMangager that uses the user
     public static User user = new User(false);
     public static LoginManager loginManager = new LoginManager(user);
 
@@ -10,8 +11,10 @@ class Program
         List<char> validKeysLoggedIn = new List<char> { '1', '2', '3', '4', '5', '6', '7' };
         List<char> validKeysLoggedOut = new List<char> { '1', '2', '3', '4' };
 
+        //Keep the application running until the user decides to exit
         do
         {
+            //Display different menu options depending on if the user is logged in or not
             if (!user.IsLoggedIn)
             {
                 do
@@ -84,6 +87,8 @@ class Program
         } while ((user.IsLoggedIn && user.InputKey != '7') || (!user.IsLoggedIn && user.InputKey != '4'));
     }
 
+
+    //All functions used in the program are defined here
     public static void DisplayMenu()
     {
         if (!user.IsLoggedIn)
@@ -105,6 +110,7 @@ class Program
         }
     }
 
+    //Function for handling login
     public static void HandleLogin()
     {
         Console.Clear();
@@ -119,36 +125,44 @@ class Program
 
     }
 
+    //Function for handling logout
     public static void HandleLogOut()
     {
+        //Log out the user
         loginManager.HandleLogOut();
     }
 
+    //Function for showing all pokemon
     public static void HandleShowAllPokemon()
     {
         Console.Clear();
+        //Read all lines from the pokemon file and use the HandleShowPokemon function to display them
         string[] lines = FileManager.ReadPokemon();
         PokedexManager.HandleShowPokemon(lines);
 
     }
 
+    //Function for searching for pokemon
     public static void HandleSearchForPokemon()
     {
         Console.Clear();
         PokedexManager.HandleSearchForPokemon();
     }
 
+    //Function for adding a pokemon
     public static void HandleAddPokemon()
     {
         Console.Clear();
         PokedexManager.HandleAddPokemon();
     }
 
+    //Function for editing a pokemon
     public static void HandleEditPokemon()
     {
         PokedexManager.HandleEditPokemon();
     }
 
+    //Function for deleting a pokemon
     public static void HandleDeletePokemon()
     {
         Console.Clear();

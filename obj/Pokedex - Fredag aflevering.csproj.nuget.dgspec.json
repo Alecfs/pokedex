@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/awn/Documents/Skole/H2/Programmering/OOP/Pokedex - Fredag aflevering/Pokedex - Fredag aflevering.csproj": {}
+    "C:\\Users\\awiin\\code projects\\Skole\\H2\\OOP\\pokedex\\Pokedex - Fredag aflevering.csproj": {}
   },
   "projects": {
-    "/Users/awn/Documents/Skole/H2/Programmering/OOP/Pokedex - Fredag aflevering/Pokedex - Fredag aflevering.csproj": {
+    "C:\\Users\\awiin\\code projects\\Skole\\H2\\OOP\\pokedex\\Pokedex - Fredag aflevering.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/awn/Documents/Skole/H2/Programmering/OOP/Pokedex - Fredag aflevering/Pokedex - Fredag aflevering.csproj",
+        "projectUniqueName": "C:\\Users\\awiin\\code projects\\Skole\\H2\\OOP\\pokedex\\Pokedex - Fredag aflevering.csproj",
         "projectName": "Pokedex - Fredag aflevering",
-        "projectPath": "/Users/awn/Documents/Skole/H2/Programmering/OOP/Pokedex - Fredag aflevering/Pokedex - Fredag aflevering.csproj",
-        "packagesPath": "/Users/awn/.nuget/packages/",
-        "outputPath": "/Users/awn/Documents/Skole/H2/Programmering/OOP/Pokedex - Fredag aflevering/obj/",
+        "projectPath": "C:\\Users\\awiin\\code projects\\Skole\\H2\\OOP\\pokedex\\Pokedex - Fredag aflevering.csproj",
+        "packagesPath": "C:\\Users\\awiin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\awiin\\code projects\\Skole\\H2\\OOP\\pokedex\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/awn/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\awiin\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.405/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

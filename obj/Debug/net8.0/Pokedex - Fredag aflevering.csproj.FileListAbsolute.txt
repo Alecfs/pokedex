@@ -12,3 +12,18 @@
 /Users/awn/Documents/Skole/H2/Programmering/OOP/Pokedex - Fredag aflevering/obj/Debug/net8.0/Pokedex - Fredag aflevering.pdb
 /Users/awn/Documents/Skole/H2/Programmering/OOP/Pokedex - Fredag aflevering/obj/Debug/net8.0/Pokedex - Fredag aflevering.genruntimeconfig.cache
 /Users/awn/Documents/Skole/H2/Programmering/OOP/Pokedex - Fredag aflevering/obj/Debug/net8.0/ref/Pokedex - Fredag aflevering.dll
+C:\Users\awiin\code projects\Skole\H2\OOP\pokedex\bin\Debug\net8.0\Pokedex - Fredag aflevering.exe
+C:\Users\awiin\code projects\Skole\H2\OOP\pokedex\bin\Debug\net8.0\Pokedex - Fredag aflevering.deps.json
+C:\Users\awiin\code projects\Skole\H2\OOP\pokedex\bin\Debug\net8.0\Pokedex - Fredag aflevering.runtimeconfig.json
+C:\Users\awiin\code projects\Skole\H2\OOP\pokedex\bin\Debug\net8.0\Pokedex - Fredag aflevering.dll
+C:\Users\awiin\code projects\Skole\H2\OOP\pokedex\bin\Debug\net8.0\Pokedex - Fredag aflevering.pdb
+C:\Users\awiin\code projects\Skole\H2\OOP\pokedex\obj\Debug\net8.0\Pokedex - Fredag aflevering.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\awiin\code projects\Skole\H2\OOP\pokedex\obj\Debug\net8.0\Pokedex - Fredag aflevering.AssemblyInfoInputs.cache
+C:\Users\awiin\code projects\Skole\H2\OOP\pokedex\obj\Debug\net8.0\Pokedex - Fredag aflevering.AssemblyInfo.cs
+C:\Users\awiin\code projects\Skole\H2\OOP\pokedex\obj\Debug\net8.0\Pokedex - Fredag aflevering.csproj.CoreCompileInputs.cache
+C:\Users\awiin\code projects\Skole\H2\OOP\pokedex\obj\Debug\net8.0\Pokedex - Fredag aflevering.sourcelink.json
+C:\Users\awiin\code projects\Skole\H2\OOP\pokedex\obj\Debug\net8.0\Pokedex - Fredag aflevering.dll
+C:\Users\awiin\code projects\Skole\H2\OOP\pokedex\obj\Debug\net8.0\refint\Pokedex - Fredag aflevering.dll
+C:\Users\awiin\code projects\Skole\H2\OOP\pokedex\obj\Debug\net8.0\Pokedex - Fredag aflevering.pdb
+C:\Users\awiin\code projects\Skole\H2\OOP\pokedex\obj\Debug\net8.0\Pokedex - Fredag aflevering.genruntimeconfig.cache
+C:\Users\awiin\code projects\Skole\H2\OOP\pokedex\obj\Debug\net8.0\ref\Pokedex - Fredag aflevering.dll
