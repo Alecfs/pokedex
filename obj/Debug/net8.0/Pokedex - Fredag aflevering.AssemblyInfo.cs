@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Pokedex - Fredag aflevering")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7b78f0f39d6916fa7cbfde85c20af55705a5ffd9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0d81f4f6666adfad3caeca0d6bbcf989d4980830")]
 [assembly: System.Reflection.AssemblyProductAttribute("Pokedex - Fredag aflevering")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Pokedex - Fredag aflevering")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

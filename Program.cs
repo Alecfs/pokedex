@@ -8,6 +8,7 @@ class Program
 
     static void Main(string[] args)
     {
+        FileManager.CreateDataFilesIfNotExists();
         List<char> validKeysLoggedIn = new List<char> { '1', '2', '3', '4', '5', '6', '7' };
         List<char> validKeysLoggedOut = new List<char> { '1', '2', '3', '4' };
 

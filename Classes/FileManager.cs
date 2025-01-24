@@ -47,9 +47,15 @@ public class FileManager
     //Function for creating the data files if they do not exist
     public static void CreateDataFilesIfNotExists()
     {
+        //Create directory if not exists
+        if (!Directory.Exists("data"))
+        {
+            Directory.CreateDirectory("data");
+        }
         //Create user file with default user if it does not exist
         if (!File.Exists(userFilePath))
         {
+            Console.WriteLine("Creating user file");
             string[] defaultUser = { "username,password", $"admin,{LoginManager.GenerateHash("admin")}" };
             File.WriteAllLines(userFilePath, defaultUser);
         }
