@@ -1,0 +1,14 @@
+/Users/awn/Documents/Skole/H2/Programmering/OOP/Pokedex - Fredag aflevering/bin/Debug/net8.0/Pokedex - Fredag aflevering
+/Users/awn/Documents/Skole/H2/Programmering/OOP/Pokedex - Fredag aflevering/bin/Debug/net8.0/Pokedex - Fredag aflevering.deps.json
+/Users/awn/Documents/Skole/H2/Programmering/OOP/Pokedex - Fredag aflevering/bin/Debug/net8.0/Pokedex - Fredag aflevering.runtimeconfig.json
+/Users/awn/Documents/Skole/H2/Programmering/OOP/Pokedex - Fredag aflevering/bin/Debug/net8.0/Pokedex - Fredag aflevering.dll
+/Users/awn/Documents/Skole/H2/Programmering/OOP/Pokedex - Fredag aflevering/bin/Debug/net8.0/Pokedex - Fredag aflevering.pdb
+/Users/awn/Documents/Skole/H2/Programmering/OOP/Pokedex - Fredag aflevering/obj/Debug/net8.0/Pokedex - Fredag aflevering.GeneratedMSBuildEditorConfig.editorconfig
+/Users/awn/Documents/Skole/H2/Programmering/OOP/Pokedex - Fredag aflevering/obj/Debug/net8.0/Pokedex - Fredag aflevering.AssemblyInfoInputs.cache
+/Users/awn/Documents/Skole/H2/Programmering/OOP/Pokedex - Fredag aflevering/obj/Debug/net8.0/Pokedex - Fredag aflevering.AssemblyInfo.cs
+/Users/awn/Documents/Skole/H2/Programmering/OOP/Pokedex - Fredag aflevering/obj/Debug/net8.0/Pokedex - Fredag aflevering.csproj.CoreCompileInputs.cache
+/Users/awn/Documents/Skole/H2/Programmering/OOP/Pokedex - Fredag aflevering/obj/Debug/net8.0/Pokedex - Fredag aflevering.dll
+/Users/awn/Documents/Skole/H2/Programmering/OOP/Pokedex - Fredag aflevering/obj/Debug/net8.0/refint/Pokedex - Fredag aflevering.dll
+/Users/awn/Documents/Skole/H2/Programmering/OOP/Pokedex - Fredag aflevering/obj/Debug/net8.0/Pokedex - Fredag aflevering.pdb
+/Users/awn/Documents/Skole/H2/Programmering/OOP/Pokedex - Fredag aflevering/obj/Debug/net8.0/Pokedex - Fredag aflevering.genruntimeconfig.cache
+/Users/awn/Documents/Skole/H2/Programmering/OOP/Pokedex - Fredag aflevering/obj/Debug/net8.0/ref/Pokedex - Fredag aflevering.dll
