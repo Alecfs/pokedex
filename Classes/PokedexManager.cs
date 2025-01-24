@@ -35,6 +35,7 @@ public class PokedexManager
             }
             else
             {
+                Console.Clear();
                 return false;
             }
         }
@@ -196,6 +197,7 @@ public class PokedexManager
         {
             //Gather the id of the pokemon to delete
             Console.Clear();
+            bool pokemonDeleted = false;
             string[] lines = FileManager.ReadPokemon();
             Console.Write("Indtast ID på Pokemon der skal slettes: ");
             string id = Console.ReadLine() ?? "";
@@ -209,13 +211,24 @@ public class PokedexManager
                 {
                     newLines.Add(line);
                 }
+                else if (values[0] == id)
+                {
+                    pokemonDeleted = true;
+                }
             }
 
             //Write the new list of pokemon to the file
             FileManager.PokemonWriteAllLines(newLines);
 
             //Allow the user to return to menu or delete another pokemon
-            Console.WriteLine("Pokemon slettet");
+            if (pokemonDeleted)
+            {
+                Console.WriteLine("Pokemon slettet");
+            }
+            else
+            {
+                Console.WriteLine("Ingen Pokemon med det ID fundet");
+            }
             Console.WriteLine("Tryk en tast for at gå tilbage til menuen, eller tryk [D] for at slette en ny Pokemon");
             char inputKey = Console.ReadKey().KeyChar;
             if (inputKey != 'd' && inputKey != 'D')
@@ -233,6 +246,7 @@ public class PokedexManager
         {
             //Gather the id of the pokemon to edit
             Console.Clear();
+            bool pokemonEdited = false;
             string[] lines = FileManager.ReadPokemon();
             Console.Write("Indtast ID på Pokemon der skal redigeres: ");
             string id = Console.ReadLine() ?? "";
@@ -251,6 +265,7 @@ public class PokedexManager
                     Console.Write("Indtast nyt styrkeniveau på Pokemon: ");
                     string power = Console.ReadLine() ?? "";
                     newLines.Add($"{id},{name},{type},{power}");
+                    pokemonEdited = true;
                 }
                 else
                 {
@@ -258,9 +273,16 @@ public class PokedexManager
                 }
             }
 
-            //Write the new list of pokemon to the file
+            //Write the new list of pokemon to the file, if a pokemon was edited show a message
             FileManager.PokemonWriteAllLines(newLines);
-            Console.WriteLine("Pokemon redigeret");
+            if (pokemonEdited)
+            {
+                Console.WriteLine("Pokemon redigeret");
+            }
+            else
+            {
+                Console.WriteLine("Ingen Pokemon med det ID fundet");
+            }
 
             //Allow the user to edit another pokemon or return to menu
             Console.WriteLine("Tryk en tast for at gå tilbage til menuen, eller tryk [E] for at redigere en ny Pokemon");
